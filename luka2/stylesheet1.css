@@ -63,7 +63,7 @@ body{
         margin-left: 40px;
         margin-top: 110px;
         color: white;
-        font-family: "garamond";
+        font-family: 'Times New Roman', Times, serif;
     }
 
       img {
@@ -77,23 +77,24 @@ body{
       }
 
     ul {
-       text-align: right;
+       text-align: left;
     }
 
     h1{
-        color: #cd38e0;
+        color: #c70bec;
         font-family: "Lucida Handwriting", cursive;
+        font-size: 2em;
     }
 
 .flex-container{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     margin: 5px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 250px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .text-center {
@@ -102,7 +103,7 @@ body{
     width: 80%;
     height: 70%;
     margin-left: auto;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 50px;
     margin-right: auto;
     color: white;
@@ -110,33 +111,182 @@ body{
 
 .container-flex{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     margin: 5px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px; 
+    margin-top: 10px;
+    margin-bottom: 100px; 
 }
 
 .flex-container1{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     margin: 5px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .flex-container2{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     margin: 5px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
+
+.footer .row {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #2D283e,#443f5c,#814f88);
+    color: #ffffff;
+    text-align: left;
+    }
+
+.row{
+    display: flex;
+    float: left;
+}
+
+.column1 {
+    flex: 100%;
+    padding: 10px;
+    height: 150px;
+}
+
+.column2 {
+    flex: 100%;
+    padding: 10px;
+    height: 150px;
+    margin-left: 100px;
+}
+
+.footer a{
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+h3{
+ color: #cd38e0;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 20px;
+}
+
+#karlo{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#me{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#kaisen{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.flex-container4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.app-text a{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+  } 
+
+  #flame{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #landscape{
+    width: 300px;
+    height: 300px;  
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #terning{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  #natur{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #snow{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #animal{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #diplom1{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #diplom2{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #tapas{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .list{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 100px;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;  
+  }
